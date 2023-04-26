@@ -1,0 +1,19 @@
+.avatar-img {
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+  }
+  
+  .avatar {
+    filter: blur(1px);
+    float: right;
+    margin-right: 10px;
+    margin-top: 10px;
+  }
+  
+  .avatar-img:hover {
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.8);
+  }
+  .avatar:hover {
+    filter: blur(0);
+  }
